@@ -1,0 +1,484 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto 0;
+}
+
+.nav {
+    background-color: blue;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    box-shadow: 2px 2px 2px;
+    transition: all 1s;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+
+h5 {
+    color: #fff;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.main-nav {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+li {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.7em;
+    font-weight: bold;
+    
+}
+
+a:hover {
+    font-size: 0.9em
+}
+
+/* Cover */
+.intro {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: left;
+    color: blue;
+    
+}
+
+.intro h1 {
+    font-size: 2.9em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 2px black;
+}
+
+.intro p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -20px;
+    font-weight: bold;
+    color: blue;
+}
+.cover {
+    width: 20rem;
+    margin-left: 30px;
+    transition: all 1s;
+}
+
+.cover:hover {
+    transform: scale(1.1);
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    border-bottom: 5px solid rgb(36, 12, 255);
+    /* background-color: rgb(219, 241, 241); */
+}
+
+/* About Section */
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about h2 {
+    font-family: 'Titan One', cursive;
+    font-size: 2.5rem;
+    color: blue;
+}
+
+.about-flex {
+    display: flex;
+}
+
+.flex1 {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    width: 30rem;
+    /* background-color: blueviolet; */
+    
+}
+
+.flex2 {
+    display: flex;
+    justify-content: center;
+    width: 30rem;
+    /* background-color: blue; */
+}
+
+.flex2 p {
+    color: rgb(5, 32, 122);
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.image {
+    width: 310px;
+    height: 300px;
+    box-shadow: 2px 5px 5px black;
+    transition: all 1s;
+}
+
+.image:hover {
+    transform: scale(1.04);
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(170, 170, 218, 0.5);
+    
+    margin-top: 30px;
+}
+.skills h2 {
+    color: blue;
+    font-family: 'Titan One', cursive;
+}
+
+.skillname {
+    display: flex;
+    
+}
+
+.skillname h6 {
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+    color: rgb(59, 39, 240);
+}
+
+#tick {
+    margin-right: 10px;
+    background: rgb(1, 1, 49);
+    color: #fff;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.project h3 {
+    color: blue;
+    font-family: 'Titan One', cursive;
+    font-size: 1.5rem;
+}
+
+.project-flex {
+    display: flex;
+    margin: 20px;
+
+}
+.project-image {
+    width: 20rem;
+    margin-right: 50px;
+    box-shadow: 2px 5px 5px black;
+    transition: all 1s;
+}
+.project-image:hover {
+    transform: scale(1.1);
+}
+.project-text {
+    width: 20rem;
+    font-size: 1.3rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: red;
+}
+
+#button {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: blue;
+    border: none;
+    color: #fff;
+    transition: all 1s;
+}
+
+#button:hover {
+    background-color: transparent;
+    color: blue;
+    transform: scale(1.05);
+    border: 2px solid blue;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(170, 170, 218, 0.5);
+}
+.services h3 {
+    color: blue;
+    font-family: 'Titan One', cursive;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 1px white;
+}
+
+.service-text {
+    color: #fff;
+}
+
+.footer {
+    background-color: rgb(5, 0, 17);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer h6 {
+    color: #fff;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.0rem;
+    margin-top: -10px;
+}
+
+#f-icon {
+    margin-right: 5px;
+}
+
+.footer-icon {
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+}
+
+.sidenav {
+    display: none;
+}
+
+#bar {
+    display: none;
+}
+  
+
+@media screen and (max-width:600px) {
+    a {
+        font-size: 0.5em;
+    }
+
+    .nav {
+        padding: 7px ;
+        width: 100%;
+    }
+ 
+    .main-nav {
+        margin-right: 20px;
+        display: none;
+    }
+    li {
+        padding: 10px;
+    }
+
+    h5 {
+        font-size: 0.8em;
+        margin-left: 10px;
+    }
+    .container {
+        height: 50vh;
+        padding: 0px 20px;
+    }
+
+    .cover {
+        width: 10rem;
+        margin-left: 30px;
+        transition: all 1s;
+    }
+
+    .intro h1 {
+        font-size: 1.2em;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-shadow: 1px 1px 1px black;
+    }
+    
+    .intro p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: -5px;
+        font-weight: bold;
+        font-size: 0.5rem;
+    }
+
+    .flex1 {
+        width: 10rem;
+        align-items: center;
+        /* margin-right: 2px; */
+    }
+
+    .flex2 {
+        width: 10rem;
+        margin-left: -10px;
+    }
+
+    .flex2 p {
+        font-size: 0.5rem;
+    }
+
+    .image {
+        width: 130px;
+        height: 120px;
+    }
+
+ 
+
+    .skillname {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        
+    }
+    .skillname h6 {
+        padding: 4px;
+        margin: 10px;
+    }
+
+    .project-image {
+        width: 10rem;
+        margin-right: 30px;
+    }
+
+    .project-text {
+        width: 10rem;
+        font-size: 0.7rem;
+    }
+
+    .footer {
+        padding: 20px 0px;
+    }
+
+    .footer h6 {
+        font-size: 0.7rem;
+    }
+
+    .sidenav {
+        display: block;
+        height: 100%; /* 100% Full-height */
+        width: 0; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0; /* Stay at the top */
+        right: 0;
+        background-color: #111; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+      }
+      
+      /* The navigation menu links */
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      /* When you mouse over the navigation links, change their color */
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+      
+      /* Position and style the close button (top right corner) */
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      
+      /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+      #main {
+        transition: margin-left .5s;
+        /* padding: 20px; */
+      }
+
+      #bar {
+          color: #fff;
+          display: flex;
+          margin-left: 250px;
+      }
+      
+}
+
+@media screen and (min-width:620px) and (max-width: 950px) {
+    .flex2 {
+        width:15rem;
+        margin-left: 0px;
+    
+    }
+
+    .image {
+        width: 230px;
+        height: 210px;
+    }
+
+    .flex2 p {
+        font-size: 0.8rem;
+    }
+
+    .flex1 {
+        width: 20rem;
+    }
+
+    .project-image {
+        width: 15rem;
+        margin-right: 30px;
+    }
+
+    .project-text {
+        width: 20rem;
+        font-size: 1.0rem;
+    }
+
+  
+
+    .skillname {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+    }
+
+    .skillname h6 {
+        padding: 15px;
+        margin: 0;
+    }
+
+    .container {
+        height: 60vh;
+    }
+}
