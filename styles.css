@@ -332,6 +332,10 @@ a:hover {
         font-size: 0.5rem;
     }
 
+    .about h2 {
+        font-size: 1.5rem;
+    }
+
     .flex1 {
         width: 10rem;
         align-items: center;
